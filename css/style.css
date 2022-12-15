@@ -1,0 +1,20 @@
+@import "general.css";
+
+main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto;
+}
+
+
+@media (max-width: 1150px) {
+  main {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 750px) {
+  main {
+    grid-template-columns: auto;
+  }
+}

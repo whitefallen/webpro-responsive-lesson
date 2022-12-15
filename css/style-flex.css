@@ -1,0 +1,23 @@
+@import "general.css";
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 0 0 29%;
+}
+
+@media (max-width: 1600px) {
+  .card {
+    flex: 0 0 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+}
